@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Wall_Corridor
+    second: {fileID: 2100000, guid: 2984eabfbf696db4b847190bf8eeccc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Wall_Ext
     second: {fileID: 2100000, guid: 0fea83a0504f626498befb6910e2d792, type: 2}
   - first:

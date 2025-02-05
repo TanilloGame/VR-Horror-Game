@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Door_Frame
     second: {fileID: 2100000, guid: db95bb16611fcfb4a9ee5b07adedeadc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrimSheet_01
+    second: {fileID: 2100000, guid: c4201ceb667e265488cd7249193290ea, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

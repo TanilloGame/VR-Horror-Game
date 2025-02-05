@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TrimBooks
+    second: {fileID: 2100000, guid: 36bac40b9925e734b9959c8b296b9068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TrimSheet_01
     second: {fileID: 2100000, guid: c4201ceb667e265488cd7249193290ea, type: 2}
   materials:

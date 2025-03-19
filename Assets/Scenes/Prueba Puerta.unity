@@ -1006,6 +1006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnimator: {fileID: 800000589}
   door: {fileID: 800000587}
+  hasKey: 0
 --- !u!95 &800000589
 Animator:
   serializedVersion: 5
@@ -1950,6 +1951,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 800000588}
+        m_TargetAssemblyTypeName: DoorController, Assembly-CSharp
+        m_MethodName: SetKeyTrue
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5391,6 +5404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnimator: {fileID: 8557902021742836102}
   door: {fileID: 2065777937618168052}
+  hasKey: 0
 --- !u!4 &8229774602612025959
 Transform:
   m_ObjectHideFlags: 0

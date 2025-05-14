@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Blackboard
+    second: {fileID: 2100000, guid: e1bcf91b0efad2f4c9e0bab7645b03b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blackboard_Wood
+    second: {fileID: 2100000, guid: 1d57c3a575611a64db34aa9e0f29cb60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TrimSheet_01
     second: {fileID: 2100000, guid: c4201ceb667e265488cd7249193290ea, type: 2}
   materials:

@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Library_Rack_01
+    second: {fileID: 2100000, guid: 9be35d4b63f51ad49854a02b2ec416ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TrimSheet_01
     second: {fileID: 2100000, guid: c4201ceb667e265488cd7249193290ea, type: 2}
   materials:

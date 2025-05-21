@@ -21,6 +21,7 @@ public class LockerController : MonoBehaviour
             lockerAudio.Play();
             animationDone = true;
             Debug.Log("Locker Opened");
+            Destroy(gameObject);
         }
     }
 }

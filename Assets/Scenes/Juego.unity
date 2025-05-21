@@ -219609,6 +219609,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Taquilla (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5129632929031467815, guid: dc1c88a15b7f30240a7c940e3c58f612,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129632929031467815, guid: dc1c88a15b7f30240a7c940e3c58f612,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129632929031467815, guid: dc1c88a15b7f30240a7c940e3c58f612,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129632929031467815, guid: dc1c88a15b7f30240a7c940e3c58f612,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7249173719753869304, guid: dc1c88a15b7f30240a7c940e3c58f612,
         type: 3}
       propertyPath: m_LocalPosition.x

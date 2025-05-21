@@ -11,6 +11,7 @@ public class Event : MonoBehaviour
     {
         monstruo.SetActive(true);
         Destroy(monstruo,8f);
+        Destroy(gameObject);
         Debug.Log("TriggerComedor Activado");
     }
 }

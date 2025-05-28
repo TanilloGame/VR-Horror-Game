@@ -62607,22 +62607,27 @@ PrefabInstance:
     - target: {fileID: 5106360558015307253, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.093
+      value: -2.143
       objectReference: {fileID: 0}
     - target: {fileID: 5106360558015307253, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.484
+      value: -0.469
       objectReference: {fileID: 0}
     - target: {fileID: 5106360558015307253, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.838
+      value: -10.399
       objectReference: {fileID: 0}
     - target: {fileID: 7611149013372401295, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
         type: 3}
       propertyPath: m_Name
       value: Evento Comedor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611149013372401295, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8322691207881946626, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
         type: 3}
@@ -62632,7 +62637,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8322691207881946626, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 572289429}
   m_SourcePrefab: {fileID: 100100000, guid: 09235fbf0ea856e4f8cc664893d3e2f1, type: 3}
 --- !u!1001 &557374468
 PrefabInstance:
@@ -64272,6 +64281,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 571702604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &572289425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8322691207881946626, guid: 09235fbf0ea856e4f8cc664893d3e2f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 557243831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &572289429
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572289425}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &573946639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -228011,6 +228047,6 @@ SceneRoots:
   - {fileID: 878133941}
   - {fileID: 6111156703968774204}
   - {fileID: 93286642}
-  - {fileID: 987293049}
   - {fileID: 557243831}
   - {fileID: 1581636534}
+  - {fileID: 987293049}

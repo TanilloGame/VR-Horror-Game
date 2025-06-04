@@ -7,6 +7,8 @@ public class DoorController : MonoBehaviour
     [SerializeField] private Animator doorAnimator;
     [SerializeField] private GameObject door;
     [SerializeField] private bool hasKey = false;
+    [SerializeField] private AudioSource doorClosingAudioSource;
+    [SerializeField] private AudioSource doorOpeningAudioSource;
 
     public void DoorInteraction()
     {
@@ -15,10 +17,12 @@ public class DoorController : MonoBehaviour
             if (doorAnimator.GetBool("Open"))
             {
                 doorAnimator.SetBool("Open", false);
+                doorClosingAudioSource.Play();
             }
             else
             {
                 doorAnimator.SetBool("Open", true);
+                doorOpeningAudioSource.Play();
             }
         }
     }

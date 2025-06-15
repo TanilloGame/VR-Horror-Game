@@ -23800,13 +23800,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5821946910735941446, guid: fbffe790364b89d4aba661355518f0c8,
+        type: 3}
+      propertyPath: needKey1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821946910735941446, guid: fbffe790364b89d4aba661355518f0c8,
+        type: 3}
+      propertyPath: needKey2
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8831784424754010016, guid: fbffe790364b89d4aba661355518f0c8,
         type: 3}
       propertyPath: m_Name
       value: 10x8x3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2809475497336997043, guid: fbffe790364b89d4aba661355518f0c8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbffe790364b89d4aba661355518f0c8, type: 3}

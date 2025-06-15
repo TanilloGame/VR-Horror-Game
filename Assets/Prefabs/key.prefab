@@ -26,17 +26,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 40.09662
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.40123034
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -37.84693
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
         type: 3}
@@ -94,6 +94,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 8380259343155244807}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 5450925793626322423}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc4db9a4ab4f6bb4d9757b53afb242e9,
         type: 3}
@@ -125,8 +129,22 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.030928714, y: 0.042332176, z: 0.08243313}
-  m_Center: {x: 0.0007766217, y: 0.038211357, z: -0.0005318642}
+  m_Size: {x: 0.0060170507, y: 0.021589607, z: 0.08243313}
+  m_Center: {x: -0.0000025425106, y: 0.03913608, z: -0.0005318622}
+--- !u!114 &8380259343155244807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8442274400393569035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dacf9db584d61b439c3989343c7da48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  keySound: {fileID: 0}
 --- !u!54 &5450925793626322423
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class EventDoor : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         monstruo.SetActive(true);
-        Destroy(monstruo, 5f);
+        Destroy(monstruo, 1.5f);
         Destroy(gameObject);
         Debug.Log("TriggerDoor Activated");
     }

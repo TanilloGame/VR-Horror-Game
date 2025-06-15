@@ -39,7 +39,7 @@ public class DoorController : MonoBehaviour
                 doorOpeningAudioSource.Play();
             }
         }
-        else
+        else if(!needKey1 && !needKey2)
         {
             if (doorAnimator.GetBool("Open"))
             {

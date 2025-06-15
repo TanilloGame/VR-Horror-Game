@@ -6,11 +6,12 @@ public class EventDoor : MonoBehaviour
 
 {
     [SerializeField] private GameObject monstruo;
+    [SerializeField] private float timeDuration;
 
     void OnTriggerEnter(Collider other)
     {
         monstruo.SetActive(true);
-        Destroy(monstruo, 1.5f);
+        Destroy(monstruo, timeDuration);
         Destroy(gameObject);
         Debug.Log("TriggerDoor Activated");
     }

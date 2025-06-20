@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorController : MonoBehaviour
 {
@@ -28,18 +29,19 @@ public class DoorController : MonoBehaviour
         }
         else if (needKey2 && PlayerInventory.HasKey2())
         {
-            if (doorAnimator.GetBool("Open"))
-            {
-                doorAnimator.SetBool("Open", false);
-                doorClosingAudioSource.Play();
-            }
-            else
-            {
-                doorAnimator.SetBool("Open", true);
-                doorOpeningAudioSource.Play();
-            }
+            // if (doorAnimator.GetBool("Open"))
+            // {
+            //     doorAnimator.SetBool("Open", false);
+            //     doorClosingAudioSource.Play();
+            // }
+            // else
+            // {
+            //     doorAnimator.SetBool("Open", true);
+            //     doorOpeningAudioSource.Play();
+            // }
+            SceneManager.LoadScene("MainMenu");
         }
-        else if(!needKey1 && !needKey2)
+        else if (!needKey1 && !needKey2)
         {
             if (doorAnimator.GetBool("Open"))
             {
